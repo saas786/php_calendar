@@ -1,0 +1,166 @@
+/*  HTML5 ✰ Boilerplate  */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+em { font-style: italic; font-weight: bold; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
+
+body { font:13px/1.231 sans-serif; *font-size:small; } 
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+html { overflow-y: scroll; }
+a:hover, a:active { outline: none; }
+ul, ol { margin-left: 2em; }
+ol { list-style-type: decimal; }
+nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+td { vertical-align: top; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 15px; }
+textarea { overflow: auto; }
+.ie6 legend, .ie7 legend { margin-left: -7px; } 
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid { /* border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red; */ }
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+::-moz-selection{ background: #499510; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+a:link { -webkit-tap-highlight-color: #FF5E99; }
+
+
+body, select, input, textarea {  color: #444; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+
+/* START OF MAIN CSS */
+
+body { background: url(imgs/bg.jpg); font-family: "Lucida Grande",Verdana,sans-serif; line-height: 20px; }
+table { width: 100%; }
+a { color: #499510; outline: medium none; text-decoration: none; }
+a:hover { color: #EC8526 }
+
+#wrap { width: 960px; margin: 20px auto 0; }
+#header { background: url("imgs/hdr.gif") repeat-x scroll 0 0 transparent; color: #999999; font-weight: bold; height: 50px; line-height: 50px; margin-bottom: 20px;}
+#header .hdrl { background: url("imgs/hdrl.gif") no-repeat scroll left top transparent; float: left; height: 50px; width: 20px; }
+#header .hdrr { background: url("imgs/hdrr.gif") no-repeat scroll right top transparent; float: right; height: 50px; width: 20px; }
+#header h1 { float: left; margin-right: 30px; color: #fff; font-size: 15pt; }
+#header ul li { float: left; list-style: none; padding:0 10px; background: url(imgs/nsp.gif) no-repeat right center; }
+#header ul li a { color: #999; text-decoration: none; }
+#header ul li a:hover { color: #fff; }
+
+.main-content { background: url("imgs/bnd.gif") repeat-x center bottom #FFFFFF; padding-bottom: 0; overflow:hidden; margin-bottom: 60px; }
+.main-content .header { background: url("imgs/bhead.gif") repeat-x scroll 0 0 transparent; height: 54px; line-height: 54px; overflow: hidden; }
+.main-content .header .hdrl { background: url("imgs/bheadl.gif") no-repeat scroll left top transparent; float: left; height: 54px; width: 20px; } 
+.main-content .header .hdrr { background: url("imgs/bheadr.gif") no-repeat scroll right top transparent; float: right; height: 54px; width: 20px; } 
+.main-content .header h2 { float: left; font-size: 13pt; } 
+
+.main-content .block { background: #FFFFFF; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; overflow: hidden; padding: 10px 20px 0; position: relative; }
+
+.main-content .bdrl { background: url("imgs/bendl.gif") no-repeat scroll left top transparent; float: left; height: 5px; width: 5px; } 
+.main-content .bdrr { background: url("imgs/bendr.gif") no-repeat scroll right top transparent; float: right; height: 5px; width: 5px; } 
+
+.block .western, 
+.block .eastern { float: left; width: 439px; overflow: hidden; padding-left: 20px; }
+.block .western { padding-left: 0px; padding-right: 20px; width: } 
+
+.block table { margin-bottom: 15px; text-align: left; }
+.block table tr td, 
+.block table tr th { border-bottom: 1px solid #DDDDDD; line-height: normal; padding: 10px; text-align: left; vertical-align: middle; }
+.block table tr th { font-weight: bold; color: #499510; }
+.block table tr td { color: #767676; }
+.block table tr td .thumb { width: 170px; border: 1px solid #DDDDDD; }
+
+.block h2 { color: #454545; font-size: 15px; margin-bottom: 10px; }
+.block input.text, 
+.block textarea { padding: 7px; width: 96%; }
+.block form p { clear: both; overflow: hidden; }
+.block form label { color: #555555; font-size: 12px; font-weight: bold; margin-right: 10px; vertical-align: middle; }
+.block form label em { font-weight: normal; font-size: 10px; font-style: normal; }
+.block form input.text { background: #FEFEFE; border: 1px solid #BBBBBB; border-radius: 3px 3px 3px 3px; color: #333333; font-size: 14px; outline: medium none; padding: 7px; vertical-align: middle; width: 410px; }
+.block form input.small { width: 210px; }
+.block form input.file { background: #FEFEFE; border-color:#BBBBBB; color: #333333; font-size: 14px; padding: 7px; vertical-align: middle; width: 410px; }
+
+
+.block form input.submit {
+    width: 165px;
+    background: url(imgs/btnb.gif) no-repeat center top transparent;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    text-shadow: 1px 1px 0 #0A5482;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.block form input.submit:hover {
+    background: url(imgs/btnb_.gif) no-repeat center top transparent;
+}
+
+.block .rightalign { text-align: right; }
+.block .message { border-radius: 3px 3px 3px 3px; font-weight: bold; margin: 10px 0; overflow: hidden; padding: 10px 15px 10px 40px; border: 1px solid #BBDBE0; color: #0888C3; background: url("imgs/info.gif") no-repeat 12px 12px #ECF9FF;}
+.block .message.error { background: url("imgs/error.gif") no-repeat scroll 12px 12px #FFECCE; border: 1px solid #E5E181; color: #666666; }
+.block .navigation { padding: 20px 0;  }
+.block .navigation a { margin-right: 20px; text-transform: capitalize; }
+
+/* END OF MAIN CSS */
+
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.hidden { display: none; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+.ie6 .clearfix { clear:both; }
+
+
+@media screen and (max-device-width: 480px) {
+
+  /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
